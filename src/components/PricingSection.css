@@ -1,0 +1,53 @@
+.pricing-section {
+  padding: 10vh 10vw;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.pricing-title {
+  font-size: 3.5rem;
+  margin-bottom: 4rem;
+  text-align: center;
+}
+
+.pricing-list {
+  display: flex;
+  flex-direction: column;
+}
+
+.pricing-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 3rem 0;
+  border-bottom: 1px solid rgba(28, 28, 30, 0.1);
+}
+
+.pricing-item:first-child {
+  border-top: 1px solid rgba(28, 28, 30, 0.1);
+}
+
+.tier-info h3 {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+}
+
+.tier-info p {
+  font-size: 1rem;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+}
+
+.tier-price {
+  font-size: 1.5rem;
+  font-weight: 300;
+  color: #555;
+}
+
+@media (max-width: 768px) {
+  .pricing-item {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1rem;
+  }
+}
